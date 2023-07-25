@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 
 
 public class HomePageSteps {
-
     public WebDriver driver = Hooks.driver;
 
     HomePage homePage = new HomePage(driver);

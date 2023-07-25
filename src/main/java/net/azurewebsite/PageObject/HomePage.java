@@ -13,6 +13,7 @@ public class HomePage extends BasePage{
     private By verifyHome = By.xpath("//img[@alt='Test']");
 
     private By homeMenu = By.xpath("//a[.='Home']");
+    private By signUpMenu = By.xpath("//a[.='Sign Up']");
 
 
     /**
@@ -28,6 +29,10 @@ public class HomePage extends BasePage{
 
     public void clickHomeMenu() {
         clickBtn(homeMenu);
+    }
+
+    public void clickSignUpMenu(){
+        clickBtn(signUpMenu);
     }
 
     /**
